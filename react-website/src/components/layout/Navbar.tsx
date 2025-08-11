@@ -89,12 +89,12 @@ export function Navbar() {
               <Link
                 key={item.name}
                 to={item.href}
-                className={cn(
-                  'relative text-sm font-medium transition-colors hover:text-primary',
-                  location.pathname === item.href
-                    ? 'text-primary'
-                    : 'text-muted-foreground'
-                )}
+                        className={cn(
+          'relative text-sm font-medium transition-colors hover:text-primary',
+          location.pathname === item.href
+            ? 'text-primary'
+            : 'text-gray-600 dark:text-gray-300'
+        )}
               >
                 {item.name}
                 {location.pathname === item.href && (
@@ -146,7 +146,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 top-[80px] bg-background/95 backdrop-blur-lg md:hidden"
+                         className="fixed inset-0 top-[80px] bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg md:hidden"
             id="mobile-menu"
           >
             <motion.nav
@@ -170,7 +170,7 @@ export function Navbar() {
                         'block text-lg font-medium transition-colors',
                         location.pathname === item.href
                           ? 'text-primary'
-                          : 'text-foreground hover:text-primary'
+                          : 'text-gray-900 dark:text-gray-100 hover:text-primary'
                       )}
                     >
                       {item.name}

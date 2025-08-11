@@ -8,7 +8,7 @@ import { Footer } from '@/components/layout/Footer'
  */
 export function RootLayout() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <Navbar />
       
       <motion.main

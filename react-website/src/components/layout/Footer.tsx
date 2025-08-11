@@ -28,7 +28,7 @@ const footerLinks = {
  */
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-muted/30">
+    <footer className="border-t border-gray-200 dark:border-gray-700 bg-gray-50/30 dark:bg-gray-800/30">
       <div className="container-grid py-12">
         <div className="col-span-12 lg:col-span-6">
           <div className="space-y-4">
@@ -39,7 +39,7 @@ export function Footer() {
             >
               Brand
             </Link>
-            <p className="text-muted-foreground max-w-md">
+            <p className="text-gray-600 dark:text-gray-300 max-w-md">
               Building exceptional digital experiences with modern technology and thoughtful design.
             </p>
             <div className="flex space-x-2">
@@ -68,7 +68,7 @@ export function Footer() {
         <div className="col-span-12 lg:col-span-6">
           <div className="grid grid-cols-2 gap-8">
             <div>
-              <h3 className="font-semibold text-foreground mb-4">Product</h3>
+              <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-4">Product</h3>
               <ul className="space-y-3">
                 {footerLinks.product.map((item) => (
                   <li key={item.name}>
@@ -84,7 +84,7 @@ export function Footer() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-foreground mb-4">Company</h3>
+              <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-4">Company</h3>
               <ul className="space-y-3">
                 {footerLinks.company.map((item) => (
                   <li key={item.name}>

@@ -51,9 +51,6 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply bg-background text-foreground font-sans;
   }
@@ -72,11 +69,11 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-border rounded-full;
+    @apply bg-gray-300 dark:bg-gray-600 rounded-full;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-accent-foreground/20;
+    @apply bg-gray-400 dark:bg-gray-500;
   }
 
   /* Focus styles for accessibility */

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import {
   Zap, Shield, Users, Rocket, Code, Smartphone, Globe, BarChart,
-  Lock, Cpu, Database, Cloud, Palette, Search, Bell, Heart
+  Lock, Cpu, Database, Cloud, Bell
 } from 'lucide-react'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { FeatureCard } from '@/components/ui/FeatureCard'

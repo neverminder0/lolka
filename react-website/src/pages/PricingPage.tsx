@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Check, Star, Shield, Zap } from 'lucide-react'
+import { Check } from 'lucide-react'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { PricingCard } from '@/components/ui/PricingCard'
 import { Button } from '@/components/ui/Button'

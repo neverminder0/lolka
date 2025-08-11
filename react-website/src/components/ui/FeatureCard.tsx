@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { } from 'react'
 import { LucideIcon } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Badge } from './Badge'
